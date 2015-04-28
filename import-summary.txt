@@ -1,0 +1,135 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\libs.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* LICENSE
+* README.markdown
+* build.xml
+* cwac-loaderex.iml
+* demo\
+* demo\.classpath
+* demo\.project
+* demo\AndroidManifest.xml
+* demo\build.xml
+* demo\demo.iml
+* demo\gen\
+* demo\gen\com\
+* demo\gen\com\commonsware\
+* demo\gen\com\commonsware\cwac\
+* demo\gen\com\commonsware\cwac\loaderex\
+* demo\gen\com\commonsware\cwac\loaderex\demo\
+* demo\gen\com\commonsware\cwac\loaderex\demo\BuildConfig.java
+* demo\gen\com\commonsware\cwac\loaderex\demo\Manifest.java
+* demo\gen\com\commonsware\cwac\loaderex\demo\R.java
+* demo\proguard-project.txt
+* demo\proguard.cfg
+* demo\project.properties
+* demo\res\
+* demo\res\drawable-hdpi\
+* demo\res\drawable-hdpi\icon.png
+* demo\res\drawable-ldpi\
+* demo\res\drawable-ldpi\icon.png
+* demo\res\drawable-mdpi\
+* demo\res\drawable-mdpi\icon.png
+* demo\res\drawable\
+* demo\res\drawable\add.png
+* demo\res\drawable\cw.png
+* demo\res\drawable\delete.png
+* demo\res\layout\
+* demo\res\layout\add_edit.xml
+* demo\res\layout\main.xml
+* demo\res\layout\prefs.xml
+* demo\res\layout\row.xml
+* demo\res\values\
+* demo\res\values\strings.xml
+* demo\src\
+* demo\src\com\
+* demo\src\com\commonsware\
+* demo\src\com\commonsware\cwac\
+* demo\src\com\commonsware\cwac\loaderex\
+* demo\src\com\commonsware\cwac\loaderex\demo\
+* demo\src\com\commonsware\cwac\loaderex\demo\ConstantsBrowser.java
+* demo\src\com\commonsware\cwac\loaderex\demo\ConstantsBrowserACL.java
+* demo\src\com\commonsware\cwac\loaderex\demo\DatabaseHelper.java
+* demo\src\com\commonsware\cwac\loaderex\demo\SharedPreferencesACLDemo.java
+* demo\src\com\commonsware\cwac\loaderex\demo\SharedPreferencesDemo.java
+* proguard-project.txt
+* proguard.cfg
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.+
+guava-r09.jar => com.google.guava:guava:17.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => loaderEx\src\main\AndroidManifest.xml
+* libs\armeabi\libdatabase_sqlcipher.so => loaderEx\src\main\jniLibs\armeabi\libdatabase_sqlcipher.so
+* libs\armeabi\libsqlcipher_android.so => loaderEx\src\main\jniLibs\armeabi\libsqlcipher_android.so
+* libs\armeabi\libstlport_shared.so => loaderEx\src\main\jniLibs\armeabi\libstlport_shared.so
+* libs\commons-codec.jar => loaderEx\libs\commons-codec.jar
+* libs\sqlcipher.jar => loaderEx\libs\sqlcipher.jar
+* libs\x86\libdatabase_sqlcipher.so => loaderEx\src\main\jniLibs\x86\libdatabase_sqlcipher.so
+* libs\x86\libsqlcipher_android.so => loaderEx\src\main\jniLibs\x86\libsqlcipher_android.so
+* libs\x86\libstlport_shared.so => loaderEx\src\main\jniLibs\x86\libstlport_shared.so
+* res\ => loaderEx\src\main\res\
+* src\ => loaderEx\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

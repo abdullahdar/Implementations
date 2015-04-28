@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Implementations</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_demo">DemoActivity</string>
+    <string name="title_activity_fragments_main">FragmentsMain</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+</resources>

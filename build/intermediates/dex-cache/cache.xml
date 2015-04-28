@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Admin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\Implementations\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-d89593f89febfe07b74530b4008cee1848966961.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\Implementations\app\libs\CWAC-LoaderEx.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="faacf866bc096c3c5fdeceee22ab8bc4a42f2f56">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\Implementations\app\build\intermediates\pre-dexed\debug\CWAC-LoaderEx-7e6f3f21ffabf44803b04d4100d43b71ea59fd7b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\Implementations\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\Implementations\app\build\intermediates\pre-dexed\debug\classes-b73830bc96f5868bb6b056536d600afb6b22283c.jar" />
+    </item>
+
+</items>
