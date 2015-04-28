@@ -27,7 +27,6 @@ public class MainActivity extends Activity implements LoaderManager.LoaderCallba
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-        int i  = 0;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
